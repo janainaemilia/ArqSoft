@@ -7,6 +7,8 @@
 <title>Resultado</title>
 </head>
 <body>
-	<h2>${filme.nome}</h2>
+	<h3>ID: ${filme.id}</h3>
+	<h3>FILME: ${filme.titulo}</h3>
+	<h3>GÊNERO: ${filme.genero.nome}</h3>
 </body>
 </html>
