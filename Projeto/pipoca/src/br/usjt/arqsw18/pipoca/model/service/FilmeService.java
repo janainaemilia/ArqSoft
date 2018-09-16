@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import br.usjt.arqsw18.pipoca.model.dao.FilmeDAO;
 import br.usjt.arqsw18.pipoca.model.entity.Filme;
 
-@Service //Para que a injeção dependencia possa acontecer
+@Service
 public class FilmeService {
 	private FilmeDAO dao;
 	
