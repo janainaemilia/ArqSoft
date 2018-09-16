@@ -1,9 +1,0 @@
-br\usjt\arqsw18\pipoca\controller\ManterFilmesController.class
-br\usjt\arqsw18\pipoca\model\dao\FilmeDAO.class
-br\usjt\arqsw18\pipoca\model\service\FilmeService.class
-br\usjt\arqsw18\pipoca\model\dao\GeneroDAO.class
-br\usjt\arqsw18\pipoca\model\entity\Genero.class
-br\usjt\arqsw18\pipoca\model\service\GeneroService.class
-br\usjt\arqsw18\pipoca\model\dao\ConnectionFactory.class
-br\usjt\arqsw18\pipoca\controller\HelloWorldController.class
-br\usjt\arqsw18\pipoca\model\entity\Filme.class
