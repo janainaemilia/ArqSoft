@@ -20,8 +20,10 @@ import br.usjt.arqsw18.pipoca.model.service.GeneroService;
 
 @Controller
 public class ManterFilmesController {
+	
 	@Autowired
 	private FilmeService fService;
+	
 	@Autowired
 	private GeneroService gService;
 
