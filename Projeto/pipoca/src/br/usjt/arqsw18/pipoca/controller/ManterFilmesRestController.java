@@ -19,10 +19,14 @@ import org.springframework.web.bind.annotation.RestController;
 import br.usjt.arqsw18.pipoca.model.entity.Filme;
 import br.usjt.arqsw18.pipoca.model.entity.Genero;
 import br.usjt.arqsw18.pipoca.model.service.FilmeService;
+import br.usjt.arqsw18.pipoca.model.service.GeneroService;
 
 @RestController
 public class ManterFilmesRestController {
-
+	
+	@Autowired
+	private GeneroService gService;
+	
 	@Autowired
 	FilmeService filmeService;
 

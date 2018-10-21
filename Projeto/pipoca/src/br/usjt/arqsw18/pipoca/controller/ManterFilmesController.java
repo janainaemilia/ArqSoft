@@ -80,7 +80,7 @@ public class ManterFilmesController {
 		try {
 			// HttpSession session = ((HttpServletRequest) model).getSession();
 
-			ArrayList<Filme> lista;
+			List<Filme> lista;
 			if (chave != null && chave.length() > 0) {
 				lista = fService.listarFilmes(chave);
 			} else {
